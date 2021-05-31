@@ -39,8 +39,8 @@ int main(void) {
   }
 }
 float mc_pi(int a){
-  int circle;
-  int square;
+  int circle=0;
+  int square=0;
   for(int i=0;i<=a;i++){
   double x = frandom();
   double y = frandom()+1;
