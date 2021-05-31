@@ -51,7 +51,7 @@ float mc_pi(int a){
   else
     square ++;
   }
-    double pi = double( 4*(circle/square));
+    double pi = ( 4*(circle/square));
   return pi;
 }
   
