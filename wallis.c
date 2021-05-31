@@ -29,7 +29,7 @@ float wallis_pi(int pie)
   double val =1;
   for(int i=1;i<pie;i++){
   
-     val = val*( 2*(4 i*i))/((4i*i)-1);
+     val = val*( 2*(4* i*i))/((4*i*i)-1);
   }
   return val;
 }
