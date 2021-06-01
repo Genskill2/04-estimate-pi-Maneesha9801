@@ -42,8 +42,8 @@ float mc_pi(int a){
   double circle=0;
   double square=0;
   for(int i=0;i<=a;i++){
-  int x = frandom();
-  int y = frandom();
+  float x = frandom();
+  float y = frandom();
    
   int distance = sqrt((x*x +y*y));
   
@@ -52,7 +52,7 @@ float mc_pi(int a){
   else
     square ++;
   }
-    double pi = ( 4*(circle/a));
+    float pi = ( 4*(circle/a));
   return pi;
 }
   
