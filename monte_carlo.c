@@ -44,7 +44,8 @@ float mc_pi(int a){
   for(int i=0;i<=a;i++){
   float x = frandom();
   float y = frandom();
-    y=y+1;
+    if(y==0 && x== 0)
+      y++;
   int distance = (x*x +y*y);
   
   if( distance <=1)
