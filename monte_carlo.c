@@ -39,11 +39,11 @@ int main(void) {
   }
 }
 float mc_pi(int a){
-  int circle=0;
-  int square=0;
+  double circle=0;
+  double square=0;
   for(int i=0;i<=a;i++){
-  float x = frandom();
-  float y = frandom();
+  int x = frandom();
+  int y = frandom();
     if(y==0 && x== 0)
       y++;
   int distance = (x*x +y*y);
